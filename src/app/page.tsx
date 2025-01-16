@@ -1,4 +1,3 @@
-// pages/docs.tsx
 const Docs = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -9,6 +8,9 @@ const Docs = () => {
           <p className="mt-2 text-md text-gray-500">Created by <strong className="text-indigo-600">Muhammad Shahroz</strong></p>
           <p className="mt-4 text-sm text-gray-500 italic">
             This API can be used in the <strong className="text-indigo-600">Giaic Hackathon</strong> for Template 2.
+          </p>
+          <p className="mt-4 text-sm text-gray-500 italic">
+            Note: This is not the official Template 2 API.
           </p>
         </header>
 
@@ -47,6 +49,15 @@ const Docs = () => {
               <code>GET /api/products/{`{id}`}</code>
             </pre>
             <p className="mt-4 text-indigo-600">Example: <strong>/api/products/1</strong></p>
+          </div>
+
+          <div className="mt-10 text-lg text-gray-700">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">API URLs</h2>
+            <p>You can access the following API endpoints:</p>
+            <ul className="list-disc pl-6 space-y-4 text-lg text-gray-700">
+              <li><a href="https://api-for-templete-2.vercel.app/api/products/" className="text-indigo-600" target="_blank" rel="noopener noreferrer">Get all products: /api/products/</a></li>
+              <li><a href="https://api-for-templete-2.vercel.app/api/products/1" className="text-indigo-600" target="_blank" rel="noopener noreferrer">Get product by ID (example): /api/products/1</a></li>
+            </ul>
           </div>
         </section>
 
