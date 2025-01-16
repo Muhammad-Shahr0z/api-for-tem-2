@@ -51,13 +51,34 @@ const Docs = () => {
             <p className="mt-4 text-indigo-600">Example: <strong>/api/products/1</strong></p>
           </div>
 
-          <div className="mt-10 text-lg text-gray-700">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">API URLs</h2>
-            <p>You can access the following API endpoints:</p>
-            <ul className="list-disc pl-6 space-y-4 text-lg text-gray-700">
-              <li><a href="https://api-for-templete-2.vercel.app/api/products/" className="text-indigo-600" target="_blank" rel="noopener noreferrer">Get all products: /api/products/</a></li>
-              <li><a href="https://api-for-templete-2.vercel.app/api/products/1" className="text-indigo-600" target="_blank" rel="noopener noreferrer">Get product by ID (example): /api/products/1</a></li>
+          <div className="mt-10 bg-black text-white p-6 rounded-md">
+            <h2 className="text-2xl font-semibold mb-4">API URLs</h2>
+            <p className="mb-4">You can access the following API endpoints:</p>
+            <ul className="list-disc pl-6 space-y-4 text-lg">
+              <li>
+                <a
+                  href="https://api-for-templete-2.vercel.app/api/products/"
+                  className="text-indigo-400 hover:text-indigo-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get all products: <strong>/api/products/</strong>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://api-for-templete-2.vercel.app/api/products/1"
+                  className="text-indigo-400 hover:text-indigo-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get product by ID (example): <strong>/api/products/1</strong>
+                </a>
+              </li>
             </ul>
+            <p className="mt-4 italic text-gray-300">
+              This is not the official Template 2 API. This API can be used for demonstration purposes only.
+            </p>
           </div>
         </section>
 
